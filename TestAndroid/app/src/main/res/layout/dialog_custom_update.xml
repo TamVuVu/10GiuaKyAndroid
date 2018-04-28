@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <EditText
+        android:text="Cập nhật sinh viên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6982ba"
+        android:focusable="false"/>
+    <EditText
+        android:id="@+id/edtNameUpdate"
+        android:hint="Nhập họ tên"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtClassUpdate"
+        android:hint="Nhập lớp"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtBirthYearUpdate"
+        android:text=""
+        android:hint="Nhập năm sinh"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtIDUpdate"
+        android:text=""
+        android:hint="Nhập MSSV"
+        android:background="#b78914"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnUpdate"
+            android:text="Đồng Ý"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnCancelUpdate"
+            android:text="Hủy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
